@@ -1,0 +1,117 @@
+@media (max-width: 1024px) {
+	.header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+
+	.header__contacts {
+		justify-content: end;
+	}
+
+	.teachers__container {
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.services__list {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px;
+	}
+
+	.timeadress__menu {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.time__img {
+		position: static;
+		width: 250px;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+
+/* ====================== До 767px ====================== */
+@media (max-width: 767px) {
+	.menu__list {
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 10px;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.intro__title {
+		font-size: 40px;
+	}
+
+	.intro__text {
+		width: 100%;
+		font-size: 18px;
+	}
+
+	.programs__list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.programs {
+		padding: 60px 0;
+	}
+
+	.teacher__buttons {
+		margin-left: 0;
+		justify-content: center;
+	}
+}
+
+/* ====================== До 479px ====================== */
+@media (max-width: 479px) {
+	.container {
+		padding: 0 10px;
+	}
+
+	.header__logo {
+		font-size: 24px;
+	}
+
+	.header__contacts {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.intro__button,
+	.program__button,
+	.services__btn {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.services__item {
+		width: 100%;
+		padding: 15px;
+	}
+
+	.services__price {
+		font-size: 36px;
+	}
+
+	.services__text {
+		font-size: 18px;
+	}
+
+	.footer__menu {
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		padding: 20px 0;
+	}
+
+	.footer__text {
+		padding-left: 0;
+	}
+}
